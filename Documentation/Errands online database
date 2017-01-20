@@ -1,0 +1,70 @@
+Errands online database
+
+CLIENTE
+-id  int 
+-nombre  varchar
+-apellido  varchar
+-direccion  varchar
+-telefono  varchar
+-cedula  varchar
+-sexo  char
+
+
+
+TIPO_RECADO
+-id int 
+-descripcion varchar
+
+
+
+ESTADO
+-id  int
+-descripcion varchar
+
+
+
+RECADOS
+-id int
+-id_cliente int
+-id_tipo_recado  int
+-id_estado  int
+-tiempo_limite  datetime
+-descripcion  varchar
+-ubicacion varchar
+-repitente bool
+
+
+
+
+EMPLEADO
+-id int
+-nombre varchar
+-apellido varchar
+-fecha_ingreso datetime
+-telefono varchar
+-direccion varchar
+-cedula
+-sexo
+
+
+
+
+DILIGENCIA
+-id int
+-id_recado
+-id_empleado
+-tiempo_inicial datetime
+-tiempo_final datetime
+-realizada  bool
+
+
+
+GASTOS
+-id
+-id_diligencia
+-monto numeric
+-descripcion varchar
+
+
+
+
