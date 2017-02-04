@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Inicio</title>
         <!-- Styles CSS-->
+				 <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 	<!-- WebSite Header Begin -->
 	<header>
 		<div class="styles_cabecera">
-			<div class="styles_logo">
-				<a href="#"><img src="./resources/reddit.png" alt="img"></a>
+			<div class="style_logo">
+				<a href="#"><img src="./resources/php_logo.png" alt="img"></a>
 			</div>
 			<nav>
 				<!--Header's Button List-->
